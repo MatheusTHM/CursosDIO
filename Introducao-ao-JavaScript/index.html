@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Introdução ao JavaScript</title>
+    <meta charset="utf-8">
+    <script type="text/JavaScript" src="js/main.js"></script>
+  </head>
+  <body onload="alert('Página carregada!')">
+      <button type="button" onclick="clicou()">Clique aqui</button>
+      <div id="agradecimento"></div>
+      <div id="teste1" onmousemove="trocar(this.id)" onmouseout="voltar(this.id)">Passe o mouse aqui!</div>
+      <div id="teste2" onmousemove="trocar(this.id)" onmouseout="voltar(this.id)">Passe o mouse aqui!</div>
+      <select onchange="console.log(this.value)">
+          <option value="1">Valor 1</option>
+          <option value="2">Valor 2</option>
+      </select>
+  </body>
+</html>
